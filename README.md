@@ -106,7 +106,7 @@ Example
 #    #
 ```
 
-## mario`.js
+## mario.js
 
 **Description:**
 The program must accept 1 input(n) that is a number and then make a stair shape using `#` character with (n) size
@@ -131,3 +131,27 @@ Example
  #####
 ######
 ```
+
+## math.js
+
+**Description:**
+The program must accept 2-5 number inputs and will show the sum and average of the input numbers
+
+valid numbers: 1-10
+**Usage:** node math.js [input...]
+
+Example
+
+```bash
+> node math.js 5 3
+SUM: 8
+AVG: 4
+> node math.js 10 20 30 94.5
+SUM: 154.5
+AVG: 38.625
+> node math.js 50 -60 20 -1
+SUM: 9
+AVG: 2.25
+
+```
+
